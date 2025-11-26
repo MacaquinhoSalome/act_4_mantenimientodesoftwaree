@@ -1,0 +1,26 @@
+# Historias de Usuario - Sistema de Gestión Biblioteca
+
+## HU01: Registrar libro en la biblioteca
+- Como: Administrador
+- Quiero: poder registrar un nuevo libro con título, autor y categoría
+- Para: que los usuarios puedan consultarlo posteriormente
+- Criterios de aceptación:
+  - El libro debe guardarse en la base de datos.
+  - Todos los campos son obligatorios.
+  - El sistema muestra mensaje de éxito al registrar.
+
+## HU02: Consultar libros disponibles
+- Como: Usuario
+- Quiero: ver la lista de libros disponibles
+- Para: poder elegir cuál quiero consultar o prestar
+- Criterios de aceptación:
+  - Se muestran los libros registrados con título y autor.
+  - Se pueden filtrar por categoría.
+
+## HU03: Prestar libro
+- Como: Usuario
+- Quiero: poder solicitar un préstamo de libro
+- Para: llevármelo temporalmente
+- Criterios de aceptación:
+  - Se registra la fecha de préstamo y de devolución.
+  - El libro queda marcado como “prestado” en el sistema.
