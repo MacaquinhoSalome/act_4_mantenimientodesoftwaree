@@ -182,3 +182,20 @@ Este sistema no solo simplifica las operaciones diarias de una biblioteca, sino 
 - Sharma, S. (2023). 7 Best Open Source Library Management Software. Recuperado de It's FOSS.
 
 - Forrester, R. (2025). Top 5 Library Management Software Solutions for 2025. Recuperado de Five.co.
+
+
+## HU04: Devolver libro
+- Como: Usuario
+- Quiero: devolver un libro prestado
+- Para: actualizar el inventario de la biblioteca
+- Criterios de aceptación:
+  - Se registra la fecha de devolución.
+  - El libro queda disponible para otros usuarios.
+
+## HU05: Eliminar libro
+- Como: Administrador
+- Quiero: eliminar un libro del sistema
+- Para: mantener actualizado el inventario
+- Criterios de aceptación:
+  - Solo el administrador puede eliminar libros.
+  - El libro eliminado ya no aparece en la lista.

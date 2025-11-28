@@ -4,6 +4,7 @@ from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+
 from typing import List
 from sqlalchemy.orm import Session
 from config.database import SessionLocal
@@ -16,6 +17,7 @@ import networkx as nx
 
 # Crear la app FastAPI
 app = FastAPI()
+
 
 
 
@@ -514,6 +516,7 @@ def construir_grafo(db: Session):
         G.add_edge(f"U{prestamo.usuario_id}", f"L{prestamo.libro_id}")
     
     return G
+
 
 
 @app.get("/grafo")
